@@ -1,0 +1,13 @@
+URxvt*transparent: false
+URxvt*font: xft:DejaVu Sans Mono:pixelsize=12:antialias=true:hinting=true
+URxvt*boldFont: xft:DejaVu Sans Mono:bold:pixelsize=12:antialias=true:hinting=true
+URxvt*scrollBar: false
+#URxvt*scrollBar_right: false
+#URxvt*scrollstyle: rxvt
+URxvt*depth: 32
+URxvt*buffered: true
+URxvt*foreground: #F5821F
+URxvt*background: black
+URxvt*fading: 50
+URxvt*fadeColor: black
+URxvt*shading: 100

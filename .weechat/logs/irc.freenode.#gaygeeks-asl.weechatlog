@@ -1,0 +1,108 @@
+2014-11-02 20:40:43	-->	RetroLinuxSYS (~RetroLinu@2601:b:2080:4200::f709) has joined #gaygeeks-asl
+2014-11-02 20:40:43	--	Topic for #gaygeeks-asl is "http://vastgayconspiracy.com/gaygeeks-asl | 18+ only! This channel is X-rated/R18/etc. | Assume all links are NSFW (Mark NSFL!) | Public logging is VERBOTEN! | http://youtu.be/donS3zZZTu8"
+2014-11-02 20:40:43	--	Topic set by laurence (~laurence@unaffiliated/laurence) on Thu, 23 Oct 2014 20:56:38
+2014-11-02 20:40:43	--	Channel #gaygeeks-asl: 120 nicks (0 ops, 0 voices, 120 normals)
+2014-11-02 20:40:43	--	Notice(leguin.freenode.net): [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2014-11-02 20:40:43	--	URL for #gaygeeks-asl: http://vastgayconspiracy.com/gaygeeks-asl/
+2014-11-02 20:40:45	--	Channel created on Sun, 26 Nov 2006 00:42:54
+2014-11-02 20:40:47	orbi	i have a question about local broadband providers
+2014-11-02 20:40:59	GeekDrew	i have _many_ policies in my environment, and i've never seen anything even 1/10th of that
+2014-11-02 20:41:00	orbi	GeekDrew: offline files, a feature he wanted, for one.
+2014-11-02 20:41:11	GeekDrew	wtf does that have to do with anything
+2014-11-02 20:41:15	orbi	and his 4MB jpg background stored on the local server
+2014-11-02 20:41:23	GeekDrew	o_o
+2014-11-02 20:41:29	orbi	and per-workstation drive mappings accomplished centrally via WMI filters
+2014-11-02 20:41:31	-->	josiah (~damio@unaffiliated/damio) has joined #gaygeeks-asl
+2014-11-02 20:41:40	orbi	the WMI filters did the most damage
+2014-11-02 20:41:42	GeekDrew	O_O
+2014-11-02 20:41:56	 *	GeekDrew bitchslaps whomever this idiot is
+2014-11-02 20:42:16	--	josiah is now known as ishmael
+2014-11-02 20:42:20	orbi	the main office has.. 4mbps of bandwidth.
+2014-11-02 20:42:27	GeekDrew	anyone causing anything resembling "per workstation drive mappings" needs to be summarily executed
+2014-11-02 20:43:30	laurence	somewhere i have a copy of the official iranian procedure for stoning to death
+2014-11-02 20:43:34	laurence	i'll find it for you later
+2014-11-02 20:43:37	orbi	o_O
+2014-11-02 20:43:42	orbi	why would you have something like that
+2014-11-02 20:43:46	GeekDrew	laurence: excellent; thanks
+2014-11-02 20:43:57	laurence	orbi: i dunno
+2014-11-02 20:44:02	GeekDrew	orbi: because of incompetent ADDS admins
+2014-11-02 20:44:03	orbi	im assuming you're not talking about people ODing on pot
+2014-11-02 20:44:06	laurence	it came across something or other
+2014-11-02 20:44:15	laurence	orbi: uh, no
+2014-11-02 20:44:22	laurence	that's actually provably impossible
+2014-11-02 20:44:29	orbi	GeekDrew: the AD here was sick for some time.. a few years
+2014-11-02 20:44:42	orbi	due to bad switches not passing ICMP over 512
+2014-11-02 20:44:47	GeekDrew	o_o
+2014-11-02 20:44:49	<--	damio (~damio@unaffiliated/damio) has quit (Ping timeout: 272 seconds)
+2014-11-02 20:44:58	Comnenus	that's good clean fun right there
+2014-11-02 20:45:08	GeekDrew	ADDS needs to require a license number every 30 days
+2014-11-02 20:45:13	GeekDrew	not for software licensing
+2014-11-02 20:45:19	GeekDrew	but an administrator's personal licensing
+2014-11-02 20:45:23	laurence	lol
+2014-11-02 20:45:25	GeekDrew	to prove that someone competent is involved
+2014-11-02 20:45:48	GeekDrew	i <3 ADDS and hate >99% of winadmins
+2014-11-02 20:46:04	 *	laurence leans on Comnenus and yawns
+2014-11-02 20:48:07	--	doge is now known as c[_]
+2014-11-02 20:48:52	 *	laurence fills c[_] 
+2014-11-02 20:49:02	 *	c[_] overflows
+2014-11-02 20:49:30	z2e	oh my
+2014-11-02 20:49:50	laurence	our cup overfloweth
+2014-11-02 20:49:51	GeekDrew	i love watching overflows :x
+2014-11-02 20:49:58	z2e	hah
+2014-11-02 20:50:04	Comnenus	apparently a friend's aunt took him and his boyfriend trick or treating.  They are 18 and 22.
+2014-11-02 20:50:12	GeekDrew	o_o
+2014-11-02 20:50:22	z2e	uh.. :o
+2014-11-02 20:50:30	Comnenus	I'm...a little confused.
+2014-11-02 20:50:33	laurence	that's weird
+2014-11-02 20:50:47	z2e	wearing a costume for a halloween party is one thing
+2014-11-02 20:51:08	z2e	going trick-or-treating.. let along chaperoned by auntie is definitely weird
+2014-11-02 20:51:19	Comnenus	even wearing a costume for the hell of it is fine.  But...going trick or treating?  adults?
+2014-11-02 20:51:26	Comnenus	yes that too
+2014-11-02 20:51:42	Comnenus	mmk.  just making sure I'm not the weird one in this situation.
+2014-11-02 20:51:53	laurence	i don't think i'd give candy if two adults rang my doorbell
+2014-11-02 20:52:22	Comnenus	"adults"
+2014-11-02 20:52:33	Comnenus	the 18 year old is ehhh.... debatable.
+2014-11-02 20:52:53	GeekDrew	eh, i know plenty of ~20 year olds who _appear_ to be early teens
+2014-11-02 20:52:58	GeekDrew	but.... good grief.
+2014-11-02 20:53:07	Comnenus	he acts like an early teen, too.
+2014-11-02 20:53:11	GeekDrew	lol
+2014-11-02 21:02:00	RetroLinuxSYS	Anyone here make their own wine :P I dont have a hydrometer to test the alcohol content but my wine is strong once glass and my face is flush :Ppppp
+2014-11-02 21:02:18	RetroLinuxSYS	stupid keyborad has a sticky key I gotta take it apart again
+2014-11-02 21:09:36	--	irc: disconnected from server
+2014-11-02 21:10:00	-->	RetroLinuxSYS (~RetroLinu@2601:b:2080:4200::f709) has joined #gaygeeks-asl
+2014-11-02 21:10:00	--	Topic for #gaygeeks-asl is "http://vastgayconspiracy.com/gaygeeks-asl | 18+ only! This channel is X-rated/R18/etc. | Assume all links are NSFW (Mark NSFL!) | Public logging is VERBOTEN! | http://youtu.be/donS3zZZTu8"
+2014-11-02 21:10:00	--	Topic set by laurence (~laurence@unaffiliated/laurence) on Thu, 23 Oct 2014 20:56:38
+2014-11-02 21:10:00	--	Channel #gaygeeks-asl: 119 nicks (0 ops, 0 voices, 119 normals)
+2014-11-02 21:10:00	--	URL for #gaygeeks-asl: http://vastgayconspiracy.com/gaygeeks-asl/
+2014-11-02 21:10:00	--	Channel created on Sun, 26 Nov 2006 00:42:54
+2014-11-02 21:10:09	GeekDrew	i had friends over this weekend, for a bonfire
+2014-11-02 21:10:16	GeekDrew	bought tons of food and alcohol
+2014-11-02 21:10:26	GeekDrew	i have almost all of the chips and alcohol remaining
+2014-11-02 21:10:32	laurence	wow
+2014-11-02 21:11:41	GeekDrew	the weather was sucky
+2014-11-02 21:12:07	GeekDrew	it took more energy to enjoy the fire than expected
+2014-11-02 21:12:17	GeekDrew	as a result, less drinking
+2014-11-02 21:12:23	GeekDrew	also i had too much non-chips food
+2014-11-02 21:14:03	-->	sparc (~csn@unaffiliated/sparc) has joined #gaygeeks-asl
+2014-11-02 21:15:00	laurence	like macaroni salad?
+2014-11-02 21:15:39	<--	dangerboy (~dangerboy@unaffiliated/blackboy) has quit (Ping timeout: 245 seconds)
+2014-11-02 21:16:26	GeekDrew	burgers, brats, macaroni salad, potato salad, cole slaw
+2014-11-02 21:18:08	laurence	i rather like good macaroni salad
+2014-11-02 21:19:01	GeekDrew	my macaroni salad was store-bought
+2014-11-02 21:19:03	LemMinG	https://imgur.com/gallery/Efbcwuq
+2014-11-02 21:19:05	GeekDrew	not bad, but not the best
+2014-11-02 21:19:22	GeekDrew	i finished the last of it earlier today
+2014-11-02 21:19:34	laurence	i like hawaiian plate lunches
+2014-11-02 21:19:38	laurence	some sort of meat
+2014-11-02 21:19:40	laurence	white rice
+2014-11-02 21:19:43	laurence	macaroni salad
+2014-11-02 21:20:03	GeekDrew	i dont think i've ever experienced a "hawaiian plate lunch"
+2014-11-02 21:20:16	laurence	yeah, they're mostly in hawaii
+2014-11-02 21:20:17	GeekDrew	i've only ever had rice with "mexican" food
+2014-11-02 21:20:24	laurence	not even something asian?
+2014-11-02 21:20:30	GeekDrew	oh
+2014-11-02 21:20:34	GeekDrew	yes, i guess chinese too
+2014-11-02 21:20:36	<--	sparc (~csn@unaffiliated/sparc) has quit (Quit: sparc)
+2014-11-02 21:20:50	LemMinG	https://imgur.com/gallery/kiLNOaH <--- bob.... bob had bitch tits
+2014-11-02 21:21:02	-->	sparc (~csn@unaffiliated/sparc) has joined #gaygeeks-asl
+2014-11-02 21:21:10	laurence	i want east coast chinese

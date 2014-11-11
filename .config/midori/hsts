@@ -1,0 +1,5 @@
+kickass.to max-age=31536000; includeSubDomains
+kickass.to max-age=31536000; includeSubDomains
+cdn.api.twitter.com max-age=631138519
+www.trustlogo.com max-age=15768000
+cdn.syndication.twitter.com max-age=631138519

@@ -1,0 +1,5 @@
+[Added Associations]
+x-scheme-handler/magnet=transmission-gtk.desktop;
+
+[Default Applications]
+x-scheme-handler/magnet=transmission-gtk.desktop

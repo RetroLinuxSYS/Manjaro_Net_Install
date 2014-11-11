@@ -1,0 +1,224 @@
+2014-10-26 03:05:04	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/aspell.so": libaspell.so.15: cannot open shared object file: No such file or directory
+2014-10-26 03:05:04	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2014-10-26 03:05:04		Plugins loaded: alias, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-10-26 03:05:14	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/aspell.so": libaspell.so.15: cannot open shared object file: No such file or directory
+2014-10-26 03:05:14	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2014-10-26 03:05:14		Plugins loaded: alias, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-10-26 03:06:06		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-26 03:08:58		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-26 03:09:51	=!=	irc: command "nick" must be executed on irc buffer (server or channel)
+2014-10-26 03:09:58	=!=	Error with command "/connect" (help on command: /help connect)
+2014-10-26 03:14:01		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-26 03:17:39		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-26 03:17:52	=!=	irc: server "freenode" already exists, can't create it!
+2014-10-26 03:18:01		Option changed: aspell.check.enabled = on  (default: off)
+2014-10-26 03:18:23		Option changed: irc.server.freenode.nicks = "Dmitry-Rasputin"  (default: (undefined))
+2014-10-26 03:18:42		Option changed: irc.server.freenode.username = "Dmitry-Rasputin"  (default: (undefined))
+2014-10-26 03:18:54		Option changed: irc.server.freenode.autoconnect = on  (default: (undefined))
+2014-10-26 03:19:23		Option changed: irc.server.freenode.command = ""/msg nickserv identify Sia9842a*"  (default: (undefined))
+2014-10-26 03:19:35		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-26 03:20:37		Option changed: irc.server.freenode.command = "/msg nickserv identify Sia9842a*"  (default: (undefined))
+2014-10-26 03:20:51		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-26 03:23:45		script: downloading list of scripts...
+2014-10-26 03:23:47		script: 280 scripts for WeeChat 1.0.1
+2014-10-26 03:23:47		script: script "buffers" not found
+2014-10-26 03:24:02		perl: loading script "/home/paul/.weechat/perl/buffers.pl"
+2014-10-26 03:24:02		perl: registered script "buffers", version 4.9 (Sidebar with list of buffers)
+2014-10-26 03:24:02		New key binding (context "mouse"): @bar(buffers):ctrl-wheeldown => hsignal:buffers_mouse
+2014-10-26 03:24:02		New key binding (context "mouse"): @bar(buffers):ctrl-wheelup => hsignal:buffers_mouse
+2014-10-26 03:24:02		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2014-10-26 03:24:02		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2014-10-26 03:24:58		Option changed: weechat.bar.buffers.filling_top_bottom = columns_vertical
+2014-10-26 03:25:31		perl: scripts unloaded
+2014-10-26 03:25:33		perl scripts loaded: buffers
+2014-10-26 03:25:33		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-26 03:26:43		Option changed: weechat.bar.buffers.position = top  (default: left)
+2014-10-26 03:27:43		script: script "iset" not found
+2014-10-26 03:27:48		perl: loading script "/home/paul/.weechat/perl/iset.pl"
+2014-10-26 03:27:48		perl: registered script "iset", version 3.6 (Interactive Set for configuration options)
+2014-10-26 03:27:48		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2014-10-26 03:27:48		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2014-10-26 03:27:48		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2014-10-26 03:27:48		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2014-10-26 03:28:59		perl: scripts unloaded
+2014-10-26 03:29:01		perl scripts loaded: buffers, iset
+2014-10-26 03:29:01		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-26 03:35:28		perl: scripts unloaded
+2014-10-26 03:35:31		perl scripts loaded: buffers, iset
+2014-10-26 03:35:31		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-26 03:37:26		Option changed: weechat.look.mouse = on  (default: off)
+2014-10-26 03:37:53		perl: scripts unloaded
+2014-10-26 03:37:59		perl scripts loaded: buffers, iset
+2014-10-26 03:37:59		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-26 04:07:36		perl: scripts unloaded
+2014-10-26 05:35:37		perl scripts loaded: buffers, iset
+2014-10-26 05:35:37		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-26 05:51:49		perl: scripts unloaded
+2014-10-26 13:12:31		perl scripts loaded: buffers, iset
+2014-10-26 13:12:31		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-26 13:14:55	=!=	Error: unknown command "/cloase" (type /help for help)
+2014-10-26 13:31:34		perl: scripts unloaded
+2014-10-26 13:31:41		perl scripts loaded: buffers, iset
+2014-10-26 13:31:41		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-26 13:32:18		perl: scripts unloaded
+2014-10-26 13:32:22		perl scripts loaded: buffers, iset
+2014-10-26 13:32:22		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-26 13:36:59		perl: scripts unloaded
+2014-10-26 14:36:29		perl scripts loaded: buffers, iset
+2014-10-26 14:36:29		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-26 16:10:19		perl: scripts unloaded
+2014-10-26 16:19:28		perl scripts loaded: buffers, iset
+2014-10-26 16:19:28		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-26 17:01:41		perl: scripts unloaded
+2014-10-26 17:36:43		perl scripts loaded: buffers, iset
+2014-10-26 17:36:43		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-26 17:38:25		perl: scripts unloaded
+2014-10-26 17:38:33		perl scripts loaded: buffers, iset
+2014-10-26 17:38:33		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-26 17:39:56		perl: scripts unloaded
+2014-10-26 17:39:59		perl scripts loaded: buffers, iset
+2014-10-26 17:39:59		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-26 17:40:04		perl: scripts unloaded
+2014-10-26 17:44:41		perl scripts loaded: buffers, iset
+2014-10-26 17:44:41		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-26 18:36:21		perl: scripts unloaded
+2014-10-26 19:03:53		perl scripts loaded: buffers, iset
+2014-10-26 19:03:53		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-27 14:31:48		irc: no ignore in list
+2014-10-27 14:31:53		[core]
+2014-10-27 14:31:53		  away     color    debug    help     key      mute     proxy    repeat   set      uptime   window 
+2014-10-27 14:31:53		  bar      command  eval     history  layout   plugin   quit     save     unset    version
+2014-10-27 14:31:53		  buffer   cursor   filter   input    mouse    print    reload   secure   upgrade  wait   
+2014-10-27 14:31:53		[python]
+2014-10-27 14:31:53		  python
+2014-10-27 14:31:53		[script]
+2014-10-27 14:31:53		  script
+2014-10-27 14:31:53		[lua]
+2014-10-27 14:31:53		  lua
+2014-10-27 14:31:53		[exec]
+2014-10-27 14:31:53		  exec
+2014-10-27 14:31:53		[ruby]
+2014-10-27 14:31:53		  ruby
+2014-10-27 14:31:53		[irc]
+2014-10-27 14:31:53		  admin       dehalfop    ison        me          oper        remove      servlist    unquiet     whowas    
+2014-10-27 14:31:53		  allchan     deop        join        mode        part        restart     squery      userhost  
+2014-10-27 14:31:53		  allpv       devoice     kick        motd        ping        sajoin      squit       users     
+2014-10-27 14:31:53		  allserv     die         kickban     msg         pong        samode      stats       version   
+2014-10-27 14:31:53		  ban         disconnect  kill        names       query       sanick      summon      voice     
+2014-10-27 14:31:53		  connect     halfop      links       nick        quiet       sapart      time        wallchops 
+2014-10-27 14:31:53		  ctcp        ignore      list        notice      quote       saquit      topic       wallops   
+2014-10-27 14:31:53		  cycle       info        lusers      notify      reconnect   server      trace       who       
+2014-10-27 14:31:53		  dcc         invite      map         op          rehash      service     unban       whois     
+2014-10-27 14:31:53		[alias]
+2014-10-27 14:31:53		  AAWAY    AMSG     BYE      CL       IG       KB       MSGBUF   Q        SIGNOFF  UMODE    W        WII    
+2014-10-27 14:31:53		  alias    ANICK    C        CLOSE    J        LEAVE    MUB      REDRAW   T        unalias  WC       WW     
+2014-10-27 14:31:53		  AME      BEEP     CHAT     EXIT     K        M        N        SAY      UB       V        WI     
+2014-10-27 14:31:53		[charset]
+2014-10-27 14:31:53		  charset
+2014-10-27 14:31:53		[guile]
+2014-10-27 14:31:53		  guile
+2014-10-27 14:31:53		[xfer]
+2014-10-27 14:31:53		  me  xfer
+2014-10-27 14:31:53		[trigger]
+2014-10-27 14:31:53		  trigger
+2014-10-27 14:31:53		[relay]
+2014-10-27 14:31:53		  relay
+2014-10-27 14:31:53		[tcl]
+2014-10-27 14:31:53		  tcl
+2014-10-27 14:31:53		[logger]
+2014-10-27 14:31:53		  logger
+2014-10-27 14:31:53		[aspell]
+2014-10-27 14:31:53		  aspell
+2014-10-27 14:31:53		[perl]
+2014-10-27 14:31:53		  buffers_detach  buffers_whitelist  iset  perl
+2014-10-27 14:35:00	=!=	Error with command "/ignore Psi-Jack everywhere" (help on command: /help ignore)
+2014-10-27 14:35:05		[irc]  /ignore  list
+2014-10-27 14:35:05		                add [re:]<nick> [<server> [<channel>]]
+2014-10-27 14:35:05		                del <number>|-all
+2014-10-27 14:35:05		ignore nicks/hosts from servers or channels
+2014-10-27 14:35:05		     list: list all ignores
+2014-10-27 14:35:05		      add: add an ignore
+2014-10-27 14:35:05		     nick: nick or hostname (can be a POSIX extended regular expression if "re:" is given or a mask using "*" to replace one or more chars)
+2014-10-27 14:35:05		      del: delete an ignore
+2014-10-27 14:35:05		   number: number of ignore to delete (look at list to find it)
+2014-10-27 14:35:05		     -all: delete all ignores
+2014-10-27 14:35:05		   server: internal server name where ignore is working
+2014-10-27 14:35:05		  channel: channel name where ignore is working
+2014-10-27 14:35:05		Note: the regular expression can start with "(?-i)" to become case sensitive.
+2014-10-27 14:35:05		Examples:
+2014-10-27 14:35:05		  ignore nick "toto" everywhere:
+2014-10-27 14:35:05		    /ignore add toto
+2014-10-27 14:35:05		  ignore host "toto@domain.com" on freenode server:
+2014-10-27 14:35:05		    /ignore add toto@domain.com freenode
+2014-10-27 14:35:05		  ignore host "toto*@*.domain.com" on freenode/#weechat:
+2014-10-27 14:35:05		    /ignore add toto*@*.domain.com freenode #weechat
+2014-10-27 14:35:18		irc: ignore added:
+2014-10-27 14:35:18		  [1] mask: Psi-Jack / server: * / channel: *
+2014-10-27 15:43:36		perl: scripts unloaded
+2014-10-27 15:46:28		perl scripts loaded: buffers, iset
+2014-10-27 15:46:28		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-27 15:46:28		script: 280 scripts for WeeChat 1.0.1
+2014-10-27 15:47:37		Option changed: irc.server.freenode.nicks = "RetroLinuxSYS"  (default: (undefined))
+2014-10-27 15:48:04		Option changed: irc.server.freenode.username = "RetroLinuxSYS"  (default: (undefined))
+2014-10-27 15:48:14		Option changed: irc.server.freenode.realname = "RetroLinuxSYS"  (default: (undefined))
+2014-10-27 15:48:31		Option changed: irc.server.freenode.autoconnect = on  (default: (undefined))
+2014-10-27 15:49:00	=!=	Error: option "irc.server.freenode.chat" not found
+2014-10-27 15:49:23		Option changed: irc.server.freenode.addresses = "irc.freenode.net/7000"  (default: (undefined))
+2014-10-27 15:49:43		Option changed: irc.server.freenode.ssl = on  (default: (undefined))
+2014-10-27 15:50:07		Option changed: irc.server.freenode.ssl_dhkey_size = 1024  (default: (undefined))
+2014-10-27 15:51:07		Option changed: irc.server.freenode.command = "/msg NickServ identify Sia9842a*"  (default: (undefined))
+2014-10-27 18:05:30		perl: scripts unloaded
+2014-10-27 18:07:32		perl scripts loaded: buffers, iset
+2014-10-27 18:07:32		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-27 19:03:17		perl: scripts unloaded
+2014-10-27 19:18:25		perl scripts loaded: buffers, iset
+2014-10-27 19:18:25		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-27 22:07:32		perl: scripts unloaded
+2014-10-27 22:09:17		perl scripts loaded: buffers, iset
+2014-10-27 22:09:17		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-27 22:14:48		perl: scripts unloaded
+2014-10-27 22:19:13		perl scripts loaded: buffers, iset
+2014-10-27 22:19:13		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-28 00:28:41		perl: scripts unloaded
+2014-10-28 08:15:49		perl scripts loaded: buffers, iset
+2014-10-28 08:15:49		Plugins loaded: alias, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-10-28 14:25:39		perl scripts loaded: buffers, iset
+2014-10-28 14:25:39		Plugins loaded: alias, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-10-28 15:04:08		perl: scripts unloaded
+2014-10-28 16:50:27		perl scripts loaded: buffers, iset
+2014-10-28 16:50:27		Plugins loaded: alias, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-10-28 16:50:28		script: 280 scripts for WeeChat 1.0.1
+2014-10-29 20:35:42		perl: scripts unloaded
+2014-10-30 15:02:52		perl scripts loaded: buffers, iset
+2014-10-30 15:02:52		Plugins loaded: alias, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-10-30 15:02:52		script: 280 scripts for WeeChat 1.0.1
+2014-10-30 19:07:04	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2014-10-30 19:07:24		perl: scripts unloaded
+2014-10-30 19:40:37		perl scripts loaded: buffers, iset
+2014-10-30 19:40:37		Plugins loaded: alias, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-10-31 12:09:19		perl: scripts unloaded
+2014-10-31 15:42:09		perl scripts loaded: buffers, iset
+2014-10-31 15:42:09		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-10-31 15:42:09		script: 280 scripts for WeeChat 1.0.1
+2014-10-31 17:33:37		perl: scripts unloaded
+2014-10-31 22:47:01		perl scripts loaded: buffers, iset
+2014-10-31 22:47:01		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-11-01 06:41:03		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-11-01 01:50:12		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-11-01 01:59:17		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-11-01 07:40:01		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-11-01 17:36:20		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-11-01 17:36:21		script: 280 scripts for WeeChat 1.0.1
+2014-11-01 20:18:28		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-11-02 01:32:11		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-11-02 12:23:17		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-11-02 20:40:03		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-11-02 20:40:04		script: 280 scripts for WeeChat 1.0.1
+2014-11-02 22:35:56		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-11-04 14:32:44		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-11-04 14:32:45		script: 280 scripts for WeeChat 1.0.1
+2014-11-09 23:02:04		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-11-09 23:02:06		script: 280 scripts for WeeChat 1.0.1
+2014-11-09 18:49:24		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-11-09 20:13:15		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2014-11-10 15:24:37		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer

@@ -1,0 +1,542 @@
+2014-11-04 14:33:13	-->	RetroLinuxSYS (~RetroLinu@2601:b:2080:4200::f709) has joined ##homebrew
+2014-11-04 14:33:13	--	Topic for ##homebrew is "I brew the beer(/cider/wine/mead/…) I drink. || THIS IS NOT the #machomebrew packager channel. || http://pastie.org/8745595"
+2014-11-04 14:33:13	--	Topic set by tlync (~tlync@101.110.31.120) on Wed, 17 Sep 2014 12:02:17
+2014-11-04 14:33:13	--	Channel ##homebrew: 132 nicks (1 op, 0 voices, 131 normals)
+2014-11-04 14:33:15	--	Channel created on Mon, 26 Jan 2009 23:31:50
+2014-11-04 14:33:22	<--	tzu_chi (~holymac@adsl-98-64-147-114.mia.bellsouth.net) has quit (Max SendQ exceeded)
+2014-11-04 14:33:59	-->	tzu_chi (~holymac@adsl-98-64-147-114.mia.bellsouth.net) has joined ##homebrew
+2014-11-04 14:36:02	<--	tzu_chi (~holymac@adsl-98-64-147-114.mia.bellsouth.net) has quit (Max SendQ exceeded)
+2014-11-04 14:36:55	-->	tzu_chi (~holymac@adsl-98-64-147-114.mia.bellsouth.net) has joined ##homebrew
+2014-11-04 14:38:53	<--	tomcocca (~Adium@184.75.193.97) has quit (Quit: Leaving.)
+2014-11-04 14:40:43	roycroft	i'll do more testing and report back, but it will likely be a week or so before i can do that
+2014-11-04 14:40:49	<--	o_lalertom (~o_lalerto@moonstonemedical/developer/o-lalertom) has quit (Quit: Saindo)
+2014-11-04 14:43:19	<--	tzu_chi (~holymac@adsl-98-64-147-114.mia.bellsouth.net) has quit (Max SendQ exceeded)
+2014-11-04 14:44:14	-->	tzu_chi (~holymac@adsl-98-64-147-114.mia.bellsouth.net) has joined ##homebrew
+2014-11-04 14:46:47	-->	_joekarl (~joekarl@ip68-228-174-63.ok.ok.cox.net) has joined ##homebrew
+2014-11-04 14:47:27	<--	joekarl (~joekarl@ec2-54-193-15-90.us-west-1.compute.amazonaws.com) has quit (Read error: Connection reset by peer)
+2014-11-04 14:48:13	-->	joekarl (~joekarl@ec2-54-193-15-90.us-west-1.compute.amazonaws.com) has joined ##homebrew
+2014-11-04 14:51:12	<--	tzu_chi (~holymac@adsl-98-64-147-114.mia.bellsouth.net) has quit (Ping timeout: 255 seconds)
+2014-11-04 14:51:21	<--	_joekarl (~joekarl@ip68-228-174-63.ok.ok.cox.net) has quit (Ping timeout: 265 seconds)
+2014-11-04 14:52:21	-->	holymac (~holymac@adsl-98-64-147-91.mia.bellsouth.net) has joined ##homebrew
+2014-11-04 14:55:18	jdv79	does anyone else find the 12 mins per judging to be a bit aggressive?
+2014-11-04 14:55:35	jdv79	i would prefer 20 mins as i'm "slow"; it seems.
+2014-11-04 14:57:02	Windy	what are you referring to?
+2014-11-04 14:57:06	roycroft	per judging what?
+2014-11-04 14:57:17	mashman	12 minutes is fine for me
+2014-11-04 14:57:24	roycroft	a single beer?
+2014-11-04 14:57:29	mashman	yes
+2014-11-04 14:57:45	Windy	in some competition or something? why would there be a time limit?
+2014-11-04 14:57:53	roycroft	if you spend 20 minutes per beer and  you have a flight of 8 beers that's 2 hours and 40 minutes for the flight
+2014-11-04 14:57:53	mashman	gotta keep things moving
+2014-11-04 14:58:09	roycroft	if you're judging two or three flights you have a really long day at that rate
+2014-11-04 14:58:44	-->	tomcocca (~Adium@184.75.193.97) has joined ##homebrew
+2014-11-04 14:59:08	-->	tzu_chi (~holymac@adsl-98-64-147-173.mia.bellsouth.net) has joined ##homebrew
+2014-11-04 14:59:09	tomcocca	slightly off topic, but anybody know of a good wireless thermometer set?
+2014-11-04 14:59:47	mashman	check homebrewfinds, I remember seeing one there recently
+2014-11-04 15:00:12	tomcocca	mashman: looking for one more for smoking/grilling than brewing
+2014-11-04 15:00:19	roycroft	an arduino with a wifi shield would do the job :)
+2014-11-04 15:00:25	<--	holymac (~holymac@adsl-98-64-147-91.mia.bellsouth.net) has quit (Ping timeout: 250 seconds)
+2014-11-04 15:01:24	mashman	the one I saw is for iphone/ipad
+2014-11-04 15:01:50	mashman	http://store.supermechanical.com/products/aqua-range#
+2014-11-04 15:02:32	mashman	and there was this one, www.amzn.com/B00FM8DJHQ
+2014-11-04 15:02:44	mashman	those are the two I remember seeing on homebrewfinds
+2014-11-04 15:04:32	 *	thrice is going to call in brewer tomorrow @ work
+2014-11-04 15:06:34	chris_99	'call in brewer'? is that like calling in sick
+2014-11-04 15:06:44	-->	xotedend (~quassel@23-25-110-173-static.hfc.comcastbusiness.net) has joined ##homebrew
+2014-11-04 15:07:36	thrice	yes, except with beer brewing!
+2014-11-04 15:07:41	chris_99	haha nice
+2014-11-04 15:07:42	<--	tzu_chi (~holymac@adsl-98-64-147-173.mia.bellsouth.net) has quit (Ping timeout: 258 seconds)
+2014-11-04 15:08:09	chris_99	lets hope your boss isn't in here
+2014-11-04 15:08:45	 *	mutedog fires thrice 
+2014-11-04 15:09:27	<--	Windy (~windy@unaffiliated/windy) has quit (Quit: until another day)
+2014-11-04 15:10:08	<--	ollef (~ollef@cm-84.215.149.239.getinternet.no) has quit (Ping timeout: 272 seconds)
+2014-11-04 15:10:22	-->	mosen (~mosen@214.128.233.220.static.exetel.com.au) has joined ##homebrew
+2014-11-04 15:11:05	jdv79	ok.  i feel the entrant gets short changed if the judge was rushing
+2014-11-04 15:14:24	<--	mosen (~mosen@214.128.233.220.static.exetel.com.au) has quit (Client Quit)
+2014-11-04 15:16:13	roycroft	the judge should be competent enough to judge a beer in 12 minutes
+2014-11-04 15:16:23	roycroft	after 20 minutes it's warm and flat anyway
+2014-11-04 15:18:00	precurse	how about a pump like this?  http://www.ebay.ca/itm/Mini-DC-12V-Food-Grade-100C-Water-Pump-29GPH-Ideal-for-sous-vide-/160788346648?pt=BI_Pumps&hash=item256fbb7718
+2014-11-04 15:18:15	precurse	or do you think that guy just buys his stuff right from China and flips it
+2014-11-04 15:19:02	<--	joem__ (~joem_@c-50-155-255-63.hsd1.co.comcast.net) has quit (Read error: Connection reset by peer)
+2014-11-04 15:19:15	-->	joem_ (~joem_@c-50-155-255-63.hsd1.co.comcast.net) has joined ##homebrew
+2014-11-04 15:19:41	chris_99	is that 2lpm?
+2014-11-04 15:19:52	-->	mosen (~mosen@214.128.233.220.static.exetel.com.au) has joined ##homebrew
+2014-11-04 15:20:03	chris_99	if so, that's v. slow
+2014-11-04 15:20:27	roycroft	yes, it's very slow
+2014-11-04 15:20:36	roycroft	it's ok for recirculating a small amount of water
+2014-11-04 15:20:42	chris_99	i got a cheap solar one thats' pretty good
+2014-11-04 15:20:44	precurse	was thinking for cooling wort
+2014-11-04 15:20:45	roycroft	with emphasis on the word "small"
+2014-11-04 15:20:50	roycroft	no way in hell
+2014-11-04 15:20:52	precurse	ah k
+2014-11-04 15:21:01	roycroft	unless you want to spend 5 hours cooling your wort
+2014-11-04 15:21:04	precurse	haha
+2014-11-04 15:21:25	chris_99	have a look for ones like http://shop.solarproject.co.uk/newshop/catalog/product_info.php?cPath=2&products_id=10
+2014-11-04 15:22:04	precurse	hm
+2014-11-04 15:22:04	chris_99	or better still ones like http://www.angelhomebrew.co.uk/en/17-pumps
+2014-11-04 15:22:14	chris_99	which are magdrive
+2014-11-04 15:22:30	chris_99	i think the magdrive ones are made by top flow
+2014-11-04 15:22:46	chris_99	*topsflo
+2014-11-04 15:22:53	precurse	oh they sell some here too it looks like
+2014-11-04 15:22:54	precurse	http://www.ontariobeerkegs.com/Brew_Pump_A_magnetic_driven_beer_pump_p/brew-pump.htm
+2014-11-04 15:22:57	precurse	$70 tho.. =/
+2014-11-04 15:23:43	precurse	monopoly dollars... aka Canadian
+2014-11-04 15:23:50	chris_99	heh
+2014-11-04 15:24:09	precurse	dammit now I want to make a brew station
+2014-11-04 15:27:34	-->	MeaK (~meak@ip-241.net-81-220-138.rev.numericable.fr) has joined ##homebrew
+2014-11-04 15:27:46	<--	MeaK (~meak@ip-241.net-81-220-138.rev.numericable.fr) has quit (Client Quit)
+2014-11-04 15:30:54	-->	MeaK (~meak@ip-241.net-81-220-138.rev.numericable.fr) has joined ##homebrew
+2014-11-04 15:34:09	<--	MeaK (~meak@ip-241.net-81-220-138.rev.numericable.fr) has quit (Client Quit)
+2014-11-04 15:35:49	<--	Robwalker (~Robwalker@cpc33-king10-2-0-cust237.19-1.cable.virginm.net) has quit (Ping timeout: 260 seconds)
+2014-11-04 15:35:57	-->	MeaK (~meak@ip-241.net-81-220-138.rev.numericable.fr) has joined ##homebrew
+2014-11-04 15:37:16	<--	MeaK (~meak@ip-241.net-81-220-138.rev.numericable.fr) has quit (Client Quit)
+2014-11-04 15:45:16	--	DouglasK is now known as DouglasK_a
+2014-11-04 15:47:49	--	ajt is now known as zz_ajt
+2014-11-04 15:56:11	tomcocca	just destroyed a recruiter in an email, feels amazing
+2014-11-04 15:57:53	Mudboy	why?
+2014-11-04 15:58:08	Mudboy	were they recruiting you, or recruiting for you?
+2014-11-04 15:58:37	tomcocca	recruiting me
+2014-11-04 15:58:58	tomcocca	researched me on linkedin
+2014-11-04 15:59:23	tomcocca	sent a connect invite on linkedin
+2014-11-04 15:59:41	tomcocca	and then emailed my profession work email an email about the postion/recruitment
+2014-11-04 15:59:49	tomcocca	and I'm just fed up with it happening
+2014-11-04 16:01:28	tomcocca	she was probably the victim of months of annoying coming to head
+2014-11-04 16:02:02	roycroft	i wish there were a way to link out
+2014-11-04 16:02:13	roycroft	i made the mistake of joining linkedin 15 years or so ago
+2014-11-04 16:02:17	roycroft	and it's been nothing but spam
+2014-11-04 16:02:24	roycroft	and i can't quit
+2014-11-04 16:02:28	tomcocca	i need the "f-off" button on linkedin
+2014-11-04 16:02:34	roycroft	the best i could do was change my email address to a blackhole address
+2014-11-04 16:02:45	roycroft	now i'm still listed on linkedin, but i get no more spam
+2014-11-04 16:02:49	fusa24	can you make a temp email address, change the linkd email to that one?
+2014-11-04 16:02:52	tomcocca	roycroft: it doesn't matter
+2014-11-04 16:02:55	roycroft	they have a mechanism to quit
+2014-11-04 16:02:56	tomcocca	they find your name
+2014-11-04 16:02:57	roycroft	but it doesn't work
+2014-11-04 16:03:05	tomcocca	and where you work
+2014-11-04 16:03:18	tomcocca	and look at any email address thats listed for your company and guess your email address
+2014-11-04 16:03:20	roycroft	yeah, i'm sure some of the spam i still get originally comes from linkedin searches
+2014-11-04 16:07:40	mutedog	who’s got an eggnog recipe?
+2014-11-04 16:08:15	roycroft	i do
+2014-11-04 16:08:17	roycroft	1. go to store
+2014-11-04 16:08:20	roycroft	2. buy jug of egg nog
+2014-11-04 16:08:21	roycroft	3. go home
+2014-11-04 16:08:28	roycroft	4. pour in glass
+2014-11-04 16:08:32	roycroft	5. add rum
+2014-11-04 16:08:34	roycroft	6. drink
+2014-11-04 16:08:58	chris_99	lol
+2014-11-04 16:09:02	tomcocca	there are so many gross eggnogs now
+2014-11-04 16:09:09	roycroft	i do want to make it from scratch some day, but i have never bothered doing so
+2014-11-04 16:09:17	tomcocca	"southern comfort sugar cookie eggnog"
+2014-11-04 16:09:27	mutedog	that was unhelpful, roycroft
+2014-11-04 16:09:28	chris_99	oh do you like snowballs then roycroft (the drink)
+2014-11-04 16:09:49	roycroft	i don't know what those are
+2014-11-04 16:09:49	mutedog	anything with southern comfort is automatically gross
+2014-11-04 16:10:07	roycroft	thank you, mutedog
+2014-11-04 16:10:37	chris_99	"A Snowball is a mixture of advocaat and lemonade in approximately equal parts"
+2014-11-04 16:10:41	chris_99	very tasty
+2014-11-04 16:11:29	tomcocca	eggs and lemondade doesn't sound awesome
+2014-11-04 16:12:07	chris_99	try it!
+2014-11-04 16:12:27	chris_99	advocaat has brandy in appaerntly too
+2014-11-04 16:14:45	mutedog	I bought a bottle of advocaat once
+2014-11-04 16:14:49	mutedog	once
+2014-11-04 16:14:59	tomcocca	chris_99: sort of reminds me of the italian desert zabaione actually
+2014-11-04 16:15:10	chris_99	haha it's awesome mutedog with lemonade anyway
+2014-11-04 16:15:31	mutedog	not awesome enough
+2014-11-04 16:15:31	chris_99	heh tomcocca yeah
+2014-11-04 16:17:04	<--	o1ver (o1ver@82.131.110.220.cable.starman.ee) has quit
+2014-11-04 16:18:21	<--	xotedend (~quassel@23-25-110-173-static.hfc.comcastbusiness.net) has quit (Ping timeout: 265 seconds)
+2014-11-04 16:19:17	chris_99	this is quite an interesting drink http://en.wikipedia.org/wiki/Amazake it's super sweet
+2014-11-04 16:23:38	openfly	egg nog is terrible
+2014-11-04 16:23:53	tomcocca	wrong
+2014-11-04 16:24:09	openfly	your mouth is filled with lies.
+2014-11-04 16:24:14	chris_99	heh
+2014-11-04 16:24:39	mutedog	amazake, that’s the children’s sake
+2014-11-04 16:25:13	mutedog	japan’s version of small beer
+2014-11-04 16:25:15	chris_99	indeed
+2014-11-04 16:26:41	-->	MeaK (~meak@ip-241.net-81-220-138.rev.numericable.fr) has joined ##homebrew
+2014-11-04 16:27:02	chris_99	was it you, who'd made sake?
+2014-11-04 16:27:29	mutedog	yes I have
+2014-11-04 16:28:30	chris_99	cool, did it taste good?
+2014-11-04 16:29:34	mutedog	yes
+2014-11-04 16:29:41	bigvalen	What do you use to turn the starch into sugar ?
+2014-11-04 16:29:48	bigvalen	Is it a bacterial blend of some sort ?
+2014-11-04 16:29:48	mutedog	mold
+2014-11-04 16:29:54	chris_99	koji isn't it
+2014-11-04 16:29:54	bigvalen	Mad.
+2014-11-04 16:30:02	mutedog	apergillus oryzae
+2014-11-04 16:30:13	mutedog	koji in japanese
+2014-11-04 16:30:26	mutedog	yeah it was a really big pita to make it
+2014-11-04 16:30:31	chris_99	that sort of rings a bell, from Primer
+2014-11-04 16:31:06	mutedog	grew the mold myself in a cooler incubator, and then had to steam tons of rice
+2014-11-04 16:31:32	chris_99	nice
+2014-11-04 16:31:43	chris_99	cooler incubator?
+2014-11-04 16:32:07	-->	checkit (hidden-use@wsip-68-225-29-133.oc.oc.cox.net) has joined ##homebrew
+2014-11-04 16:32:18	bigvalen	Holy crap, it's complex. http://homebrewsake.com/home/recipe/
+2014-11-04 16:33:07	mutedog	I put steamed rice into a shallow tupperware and sprinkled the koji spores over then then filled a cooler up half way with water and put an aquarium heater in the water and floated the tupperware on the surface and closed the lid
+2014-11-04 16:33:24	mutedog	yeah it’s nuts
+2014-11-04 16:33:28	chris_99	neat
+2014-11-04 16:33:30	chris_99	weirdly in japan, you can only make alcohol up to like 2% abv
+2014-11-04 16:33:42	mutedog	what? that’s not true
+2014-11-04 16:33:45	chris_99	homebrew
+2014-11-04 16:33:55	mutedog	yeast works the same way in japan as anywhere else
+2014-11-04 16:34:00	chris_99	haha
+2014-11-04 16:34:02	chris_99	legally
+2014-11-04 16:34:06	mutedog	oh pfft
+2014-11-04 16:35:22	mutedog	I followed the instructions on this site: http://www.taylor-madeak.org/how-to-make-sake/
+2014-11-04 16:36:30	chris_99	nice :)
+2014-11-04 16:38:07	chris_99	did you try it hot & cold
+2014-11-04 16:38:18	<--	petr (~quassel@CACert/Assurer/petr) has quit (Ping timeout: 255 seconds)
+2014-11-04 16:38:48	<--	tomcocca (~Adium@184.75.193.97) has left ##homebrew
+2014-11-04 16:38:51	<--	wheelsucker (~wheelsuck@168.114.240.151) has quit (Quit: Client Quit)
+2014-11-04 16:43:20	-->	petr (~quassel@CACert/Assurer/petr) has joined ##homebrew
+2014-11-04 16:43:43	mutedog	hot sake is only for terrible sake
+2014-11-04 16:43:49	chris_99	that's not ture
+2014-11-04 16:43:50	chris_99	*true
+2014-11-04 16:43:56	mutedog	I did make some of the batch nigori
+2014-11-04 16:44:45	chris_99	interesting
+2014-11-04 16:46:28	<--	Leates (~leates@unaffiliated/leates) has quit (Quit: Follow me - http://www.twitter.com/TheLeates)
+2014-11-04 16:49:22	mutedog	I bottled in 750 wine bottles which was dangerous
+2014-11-04 16:49:53	chris_99	why dangerous?
+2014-11-04 16:49:58	mutedog	since usually it was just my wife and I drinking it so we’d consume one bottle in an evening and be pretty wasted
+2014-11-04 16:50:28	mutedog	since it was something like 16% at least
+2014-11-04 16:50:55	chris_99	if it was all fermented out though?
+2014-11-04 16:51:36	mutedog	huh?
+2014-11-04 16:51:59	chris_99	oh
+2014-11-04 16:52:07	chris_99	i thought you meant explosions
+2014-11-04 16:52:14	phrak	I need a good winterbrew...
+2014-11-04 16:52:29	phrak	nothing is sounding particularly tastey at the moment
+2014-11-04 16:52:30	mutedog	oh no, I bottled it still and also pasteurized it
+2014-11-04 16:52:45	Leftmost	I am of the school of thought that saké should be served at warm temperature.
+2014-11-04 16:52:45	<--	MeaK (~meak@ip-241.net-81-220-138.rev.numericable.fr) has quit (Quit: I have gone to sleep. ZZZzzz…)
+2014-11-04 16:52:56	Leftmost	s/warm/room/
+2014-11-04 16:52:59	mutedog	I served it at room temp
+2014-11-04 16:53:02	Leftmost	Same thing, different words.
+2014-11-04 16:53:13	mutedog	never hot though
+2014-11-04 16:53:22	mutedog	phrak: what about a weizenbock?
+2014-11-04 16:53:23	chris_99	i've tried both hot and cold and enjoyed both
+2014-11-04 16:53:36	Leftmost	I don't think it should ever be served cold myself. :)
+2014-11-04 16:53:57	phrak	mutedog: dunno what that is... time to do some research... thanks!
+2014-11-04 16:54:02	Leftmost	Warmed (but not actually hot) would be acceptable, but I wouldn't want to serve it chilled.
+2014-11-04 16:54:58	mutedog	the only time I’ve had it hot it was scalding
+2014-11-04 16:55:14	phrak	I've had warm saki, warmer than room temp.. it was good
+2014-11-04 16:55:15	mutedog	too hot and didn’t taste great
+2014-11-04 16:55:15	chris_99	heh, i don't think it should be that hot
+2014-11-04 16:55:21	phrak	I prefer room temp usually though.
+2014-11-04 16:55:22	<--	checkit (hidden-use@wsip-68-225-29-133.oc.oc.cox.net) has quit (Ping timeout: 240 seconds)
+2014-11-04 16:55:51	Leftmost	Warm sake should be no hotter than a glass of mulled wine or cider.
+2014-11-04 16:56:19	mutedog	heh I drink mulled wine at room temp
+2014-11-04 16:56:47	chris_99	haha
+2014-11-04 16:56:55	chris_99	whats the point in that?
+2014-11-04 16:57:04	mutedog	it’s tasty?
+2014-11-04 16:57:38	Leftmost	I've been planning on making Glühwein for a couple months now, but I'm waiting until it gets chilly enough.
+2014-11-04 16:58:35	chris_99	as in make the wine for it?
+2014-11-04 16:59:02	Leftmost	No, just the mulling.
+2014-11-04 16:59:15	chris_99	is it mainly cinnamon you use for that?
+2014-11-04 16:59:27	phrak	well, tomorrow is going to be interesting...
+2014-11-04 16:59:29	Leftmost	Cinnamon, cloves, lemon.
+2014-11-04 16:59:53	phrak	just got a text from my boss all hands meeting 30 minutes before start time.
+2014-11-04 17:00:14	mashman	that's never a good thing
+2014-11-04 17:00:24	<--	joekarl (~joekarl@ec2-54-193-15-90.us-west-1.compute.amazonaws.com) has quit (Ping timeout: 265 seconds)
+2014-11-04 17:00:30	phrak	no, especially after someone totaled a million dollar plow today.
+2014-11-04 17:00:43	chris_99	eek!
+2014-11-04 17:00:58	thrice	:o
+2014-11-04 17:01:11	phrak	http://www.m-bco.com/media/2245/mb54.jpg
+2014-11-04 17:01:19	phrak	those aren't cheap
+2014-11-04 17:02:09	chris_99	never seen anything like that, whats it for, fields, or..?
+2014-11-04 17:02:17	phrak	I work for an airport
+2014-11-04 17:02:50	chris_99	aha
+2014-11-04 17:03:00	phrak	Those are for the main runways, taxiways.  7 of them will completely clear the runway of 5" of snow in less than 5 minutes
+2014-11-04 17:03:12	chris_99	nice
+2014-11-04 17:03:32	phrak	sucks for the guy in back though
+2014-11-04 17:03:45	phrak	he has to push all the snow that has been thrown over
+2014-11-04 17:04:16	phrak	I'm fortunate, I just have to plow the service roads...
+2014-11-04 17:04:21	<--	petr (~quassel@CACert/Assurer/petr) has quit (Ping timeout: 250 seconds)
+2014-11-04 17:05:24	chris_99	what kind of speed do you drive them at?
+2014-11-04 17:05:36	 *	bigvalen ponders a 80/ for christmas
+2014-11-04 17:05:36	phrak	depends on the shift lead
+2014-11-04 17:08:11	phrak	one guy is insane and wants to run 35-40mph, they'll do about 45 tops
+2014-11-04 17:08:11	-->	SkyNetMaster (~SkyNetMas@12.52.247.246) has joined ##homebrew
+2014-11-04 17:08:25	phrak	The other usually runs about 25 and does a better job
+2014-11-04 17:08:25	chris_99	haha
+2014-11-04 17:09:42	mutedog	where do you live that you’re already clearing an airport of snow?
+2014-11-04 17:10:01	-->	petr (~quassel@CACert/Assurer/petr) has joined ##homebrew
+2014-11-04 17:10:15	phrak	no snow yet this year
+2014-11-04 17:10:32	mutedog	so you’re just smashing up plows for fun?
+2014-11-04 17:10:36	phrak	but soon, been getting the equipment ready, fueled, fixed... rats nests torn out
+2014-11-04 17:10:43	mutedog	ahh
+2014-11-04 17:11:07	mutedog	also what do you have to crash a giant plow into in order to total it?
+2014-11-04 17:11:22	phrak	so, one of the older gentlemen I work with ran the broom part of that plow into a concrete pylon and ripped it off..
+2014-11-04 17:11:53	phrak	the "deadman" posts around the gas pumps..
+2014-11-04 17:11:56	mutedog	whoops
+2014-11-04 17:12:02	mutedog	yeah I know what a pylon is
+2014-11-04 17:12:03	phrak	wasn't so much that he hit it the first time
+2014-11-04 17:12:15	phrak	I think it was the backing it up and hitting it again that set the boss off
+2014-11-04 17:12:22	mutedog	er...
+2014-11-04 17:12:30	chris_99	haha
+2014-11-04 17:12:36	chris_99	why did he do that
+2014-11-04 17:12:53	phrak	well, we have a saying where I work
+2014-11-04 17:13:00	phrak	It's just the airport way :D
+2014-11-04 17:13:16	chris_99	lol
+2014-11-04 17:13:49	phrak	Mostly, with him, he retired 25 years in the army
+2014-11-04 17:13:56	phrak	20 with the police
+2014-11-04 17:14:10	phrak	15 with the airport electric shop
+2014-11-04 17:14:21	phrak	and been on airfield for a few years now...
+2014-11-04 17:15:41	mutedog	dang, how old is he?
+2014-11-04 17:15:53	phrak	dunno, but he was in veitnam
+2014-11-04 17:16:06	phrak	late 60's I guess?
+2014-11-04 17:16:41	mutedog	if he joined the army at 18, 18 + 25 + 20 +15 = 78
+2014-11-04 17:16:48	phrak	a good chunk of the army time was reserves or guard if I remember correctly
+2014-11-04 17:16:58	mutedog	oh
+2014-11-04 17:17:07	phrak	so you can mix police time and army time together
+2014-11-04 17:17:31	phrak	I think he's 67
+2014-11-04 17:17:40	phrak	but I can't prove that
+2014-11-04 17:18:14	phrak	he makes far more from his various retirement checks than he does working for us, that's for certain
+2014-11-04 17:21:56	roycroft	the porter is delicious today
+2014-11-04 17:22:00	roycroft	nicely carbed, and all ready to go
+2014-11-04 17:22:14	phrak	nice, I'm sipping the last of my pumpkin ale
+2014-11-04 17:22:16	chris_99	how about an old beer for christmas, they're quite tasty
+2014-11-04 17:22:25	roycroft	the 80/ i put on tap last night is also very good
+2014-11-04 17:22:30	precurse	roycroft:   looks like 7" WC for my line
+2014-11-04 17:22:30	roycroft	i've sampled both this afternoon
+2014-11-04 17:22:37	phrak	lbhs is pushing a gingerbread beer... might try that
+2014-11-04 17:22:40	roycroft	guests arriving in 2.5 hours
+2014-11-04 17:22:47	roycroft	that's pretty standard for residential, precurse
+2014-11-04 17:22:53	precurse	cool
+2014-11-04 17:22:54	chris_99	oh is this for the voty thing?
+2014-11-04 17:22:55	roycroft	and if i were forced to make a guess that's what i'd guess
+2014-11-04 17:23:02	roycroft	yes, it's election night
+2014-11-04 17:23:08	roycroft	it's going to be bad, though
+2014-11-04 17:23:17	roycroft	i should have put some stronger beer on tap
+2014-11-04 17:23:19	mosen	cmonnn oregon!
+2014-11-04 17:23:22	roycroft	there's a bit of dubble left
+2014-11-04 17:23:24	roycroft	dubbel
+2014-11-04 17:23:26	roycroft	oregon will do fine
+2014-11-04 17:23:27	phrak	yep, and tomorrow starts presidental season
+2014-11-04 17:23:30	roycroft	it's the rest of the country
+2014-11-04 17:23:32	roycroft	tomorrow?
+2014-11-04 17:23:38	phrak	yup
+2014-11-04 17:23:43	mutedog	it hasn’t already started?
+2014-11-04 17:23:44	roycroft	the 2016 presidential campaign started the day after election day 2012
+2014-11-04 17:23:56	Canuckian	bloody hell, phrak, you just confused the shit out of me...
+2014-11-04 17:24:06	phrak	unofficially, yes, but now you'll start getting the ads
+2014-11-04 17:24:12	phrak	hiya Canuckian
+2014-11-04 17:24:14	roycroft	the 2020 election season will begin shortly
+2014-11-04 17:24:18	phrak	wrong room sorry :D
+2014-11-04 17:24:18	Canuckian	stalker :P
+2014-11-04 17:24:32	mosen	cmonnn texas!
+2014-11-04 17:24:35	phrak	I like beer, this seemed like a cool place to hang
+2014-11-04 17:24:54	mutedog	I should make an old ale
+2014-11-04 17:24:55	phrak	I like geek stuff so those places are fun too, but I haven't been in them much lately...
+2014-11-04 17:24:58	phrak	I'm a slacker
+2014-11-04 17:25:26	Canuckian	i hear ya there... i've learned a bit just in the week i've been lurking here, as usual
+2014-11-04 17:25:53	phrak	brb, going to have to start dinner
+2014-11-04 17:26:10	chris_99	mutedog, have you tried old peculier
+2014-11-04 17:26:41	mutedog	chris_99: once long ago I drank it all night long in a bar and got shit faced
+2014-11-04 17:26:46	chris_99	haha
+2014-11-04 17:26:49	mutedog	i recall it was tasty
+2014-11-04 17:26:57	chris_99	yeah its v. nice
+2014-11-04 17:27:35	chris_99	just looking on http://en.wikipedia.org/wiki/Old_ale
+2014-11-04 17:27:38	chris_99	old tom is pretty good too
+2014-11-04 17:31:55	<--	SkyNetMaster (~SkyNetMas@12.52.247.246) has left ##homebrew
+2014-11-04 17:35:17	<--	staylor (~staylor@mail.au-zone.com) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-11-04 17:37:17	phrak	yay legs of chicken!
+2014-11-04 17:38:18	roycroft	it's a little late to brew an old ale for the holidays, isn't it?
+2014-11-04 17:38:31	chris_99	hmmm maybe?
+2014-11-04 17:38:33	mutedog	depends on how old you want it to be
+2014-11-04 17:39:15	mashman	the thing about the holidays is they never stop coming
+2014-11-04 17:39:25	roycroft	well a beer like that usually wants 60-90 days of ageing before packaging
+2014-11-04 17:39:25	chris_99	haha
+2014-11-04 17:39:57	mashman	just, uh, do something to oxidize it quickly
+2014-11-04 17:40:04	roycroft	i'm cleaning up before my guests arrive
+2014-11-04 17:40:23	roycroft	i've been piling junk mail on my dining room table for weeks
+2014-11-04 17:40:26	chris_99	haha mashman , centrifuge + oxygen maybe?
+2014-11-04 17:41:03	mashman	party at roycrofts and we weren't invited
+2014-11-04 17:41:09	chris_99	heh
+2014-11-04 17:41:10	roycroft	i just tossed at least 40-50 no on 92 blurbs
+2014-11-04 17:41:27	roycroft	you have a governor to unelect, mashman
+2014-11-04 17:41:33	roycroft	you can't do that at my house
+2014-11-04 17:41:35	mashman	I did my duty
+2014-11-04 17:41:46	roycroft	it's gonna be close, i'm afraid
+2014-11-04 17:41:47	mashman	not too hopeful on that front though
+2014-11-04 17:41:56	roycroft	yeah
+2014-11-04 17:41:57	mashman	he has a lot of support
+2014-11-04 17:42:01	roycroft	i may have to break out the whiskey tonight
+2014-11-04 17:42:05	roycroft	5% beer might not do it
+2014-11-04 17:42:26	mutedog	I’m glad I don’t gaf about politics
+2014-11-04 17:42:32	roycroft	for the life of me i can't understand why people consistently vote against their own self-interest and the interest of society in general
+2014-11-04 17:42:56	roycroft	the people who run this country are beholden to the 1%
+2014-11-04 17:43:01	mashman	people don't fully understand how politics affects their own self-interests
+2014-11-04 17:43:12	roycroft	if people voted intelligently, our current politicians would only get 1% of the vote
+2014-11-04 17:43:21	mutedog	yes if they only knew what you know they’d vote they way you voted
+2014-11-04 17:43:34	roycroft	not necessarily
+2014-11-04 17:43:40	mosen	roycroft: for many people, advertising is the only form of education on the issues
+2014-11-04 17:43:50	roycroft	there are real philosophical differences
+2014-11-04 17:43:51	mutedog	they do only get 1% of the vote, the rest of the people don;t bother voting
+2014-11-04 17:44:33	mutedog	did you vote for open primary roycroft ?
+2014-11-04 17:44:46	mutedog	I’m not sure I like it
+2014-11-04 17:44:50	roycroft	absolutely not
+2014-11-04 17:44:59	roycroft	that is a bullshit ballot initiative
+2014-11-04 17:45:12	roycroft	its only intent is to get more republicans in office in oregon
+2014-11-04 17:45:29	roycroft	i would vote for a godo open primary initiative
+2014-11-04 17:45:35	roycroft	but certainly not that one
+2014-11-04 17:45:37	mutedog	godo?
+2014-11-04 17:45:39	roycroft	good
+2014-11-04 17:45:41	mutedog	oh
+2014-11-04 17:45:54	mutedog	we have it here
+2014-11-04 17:46:05	roycroft	i'm not eligible to vote in primaries here, because i'm not a registered republican or democrat
+2014-11-04 17:46:09	mutedog	I voted for the libertarian guy in the primary, he didn’t win
+2014-11-04 17:46:12	roycroft	i would like to be able to vote in primaries
+2014-11-04 17:46:15	mutedog	so now I don;t get to vote for him now
+2014-11-04 17:46:30	roycroft	the koch brothers are pushing it here
+2014-11-04 17:46:35	mutedog	not sure I really like that
+2014-11-04 17:46:56	roycroft	i want an open primary system where anyone can vote for anyone
+2014-11-04 17:47:19	mashman	none of it matters until they fix the problem with money in politics
+2014-11-04 17:47:39	notluke	[15:45] < roycroft> that is a bullshit ballot initiative
+2014-11-04 17:47:41	roycroft	but where each party's fotg winner is on the general election ballot
+2014-11-04 17:47:50	mutedog	the way to fix the problem with money in politics is to take away all of the politicians power
+2014-11-04 17:47:57	notluke	There's some jackass here who made it his fulltime job to put together and fundraise for ballot initiatives.
+2014-11-04 17:47:59	mutedog	other wise it’ll never be solved
+2014-11-04 17:48:07	notluke	https://en.wikipedia.org/wiki/Tim_Eyman
+2014-11-04 17:48:11	notluke	Humungous dickwad.
+2014-11-04 17:48:27	-->	capin (~capin@192.232.240.116) has joined ##homebrew
+2014-11-04 17:48:53	mosen	roycroft: can't you vote 3rd party at all?
+2014-11-04 17:49:12	roycroft	my number one legislative issue on a national level is a constitutional amendment forcing public financing of elections, and mandating fairness in campaign advertising
+2014-11-04 17:49:30	mashman	that's really what needs to happen
+2014-11-04 17:49:37	roycroft	my number one issue on a state and local level is to get rid of fotg elections and implement some kind of preference voting system
+2014-11-04 17:49:43	roycroft	my party doesn't have a primary, mosen
+2014-11-04 17:49:52	roycroft	it has a party convention to choose candidates
+2014-11-04 17:49:58	mosen	ah right
+2014-11-04 17:50:39	notluke	Move to amend!
+2014-11-04 17:50:41	mosen	I'm not really clued in on your system. Especially the college system because we don't have that kind of thing
+2014-11-04 17:50:42	notluke	Corporations are not people.
+2014-11-04 17:50:45	mutedog	fotg?
+2014-11-04 17:50:46	roycroft	aah, he's your bill sizemore
+2014-11-04 17:50:51	roycroft	first out of the gate
+2014-11-04 17:50:54	roycroft	i.e. the plurality winner
+2014-11-04 17:51:05	mutedog	oh
+2014-11-04 17:51:12	jsled	aka. "first past the post"
+2014-11-04 17:51:33	mutedog	in wa it’s open primary and the top two vote getters go on to the actual election
+2014-11-04 17:51:42	roycroft	yes, that's the more common term that i was spacing out on, jsled
+2014-11-04 17:51:42	jsled	the electoral college is basically a non-issue, though it is weird.
+2014-11-04 17:51:47	roycroft	notluke: https://en.wikipedia.org/wiki/Bill_Sizemore
+2014-11-04 17:51:49	roycroft	that's our guy
+2014-11-04 17:51:57	roycroft	the electoral college is a good thing imo
+2014-11-04 17:52:05	mutedog	so then you are forced to choose between a giant douche and a shit sandwich
+2014-11-04 17:52:08	roycroft	but it is not the problem, agreed
+2014-11-04 17:52:22	roycroft	preference voting is the key on a local level
+2014-11-04 17:52:39	roycroft	we need to break up the duopoly of the republicans and democrats
+2014-11-04 17:52:48	roycroft	and preference voting is the only way that will happen in this country
+2014-11-04 17:53:07	<--	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has quit (Ping timeout: 264 seconds)
+2014-11-04 17:53:12	mosen	roycroft: yeah preferential voting works pretty well here
+2014-11-04 17:53:14	mutedog	what’s preference voting?
+2014-11-04 17:53:21	mashman	I was really hoping the republican party would split with the whole tea party thing
+2014-11-04 17:53:22	notluke	Sounds like a starve the beast guy.
+2014-11-04 17:53:38	notluke	Collect no taxes, let all government institutions collapse.
+2014-11-04 17:53:52	-->	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has joined ##homebrew
+2014-11-04 17:54:28	jsled	mutedog: https://en.wikipedia.org/wiki/Preferential_voting :)
+2014-11-04 17:54:32	roycroft	mutedog: it's where you don't vote for one person
+2014-11-04 17:54:42	mutedog	that’s probably going to happen eventually, notluke
+2014-11-04 17:54:46	roycroft	you rank all the candidates in the order you prefer them
+2014-11-04 17:55:07	roycroft	people are afraid to vote for third party candidates because they correctly believe their vote is a wasted vote
+2014-11-04 17:55:11	roycroft	with preference voting it is not wasted
+2014-11-04 17:55:15	mutedog	ahh
+2014-11-04 17:55:21	mutedog	that would be nice
+2014-11-04 17:55:46	mutedog	I vote third party because I correctly know that my vote is a wasted vote regardless
+2014-11-04 17:55:57	roycroft	say you prefer the libertarian candidate but vote for the republican because if the libertarian does not win the republican best represents your interest, and you think the democrat might beat the republican
+2014-11-04 17:56:20	roycroft	with preference voting you rank the libertarian 1, the republican 2, and the democrat 3
+2014-11-04 17:56:40	roycroft	if nobody gets 50% when the votes are counted the candidate with the least votes is rejected
+2014-11-04 17:56:44	roycroft	and ballots are recounted
+2014-11-04 17:56:48	roycroft	say the libertarian came in third
+2014-11-04 17:56:53	roycroft	your ballot gets recounted
+2014-11-04 17:57:03	roycroft	tossing out the libertarian, ranking the republican 1 and the democrat 2
+2014-11-04 17:57:53	roycroft	parts of california use preference voting systems
+2014-11-04 17:58:56	roycroft	australia nationally has a system quite similar to what i just described (which is only one form of preference voting - it's known as an instant runoff system)
+2014-11-04 18:00:12	mutedog	that would be nice, it’ll never get enacted here
+2014-11-04 18:00:50	roycroft	and polls just closed in six states
+2014-11-04 18:00:54	roycroft	returns will be comign in soon
+2014-11-04 18:03:34	mutedog	time to go not care about politics some more, have a good night everyone, may the masters you have selected oppress you minimally.
+2014-11-04 18:07:32	-->	swellington (~gcube9x@c-98-192-12-26.hsd1.ga.comcast.net) has joined ##homebrew
+2014-11-04 18:18:29	mosen	roycroft: yeah we have some 3rd parties in the senate too. Although 70% crazy
+2014-11-04 18:19:59	 *	thrice admits he did not vote either
+2014-11-04 18:28:37	openfly	thanksgiving beer just went to keg for carb and cold crash
+2014-11-04 18:28:39	openfly	https://github.com/nycresistor/brewery/blob/master/recipes/batch015-thanks-hammerish.json
+2014-11-04 18:28:42	openfly	uNF
+2014-11-04 18:31:09	 *	thrice morns 45 minute simcoe hopping
+2014-11-04 18:32:15	<--	mosen (~mosen@214.128.233.220.static.exetel.com.au) has quit (Quit: Leaving)
+2014-11-04 18:32:21	openfly	stole that from pliny land
+2014-11-04 19:05:04	-->	tomcocca (~Adium@c-24-60-80-189.hsd1.ma.comcast.net) has joined ##homebrew
+2014-11-04 19:05:12	tomcocca	chris_99: ping
+2014-11-04 19:05:27	chris_99	oh tomcocca , let me look for that thing for you
+2014-11-04 19:05:34	tomcocca	did you say you had used the 2 yeasts I was thinking about using?
+2014-11-04 19:05:49	chris_99	let me check they were the same 2
+2014-11-04 19:05:50	tomcocca	mashman: ping
+2014-11-04 19:06:08	 *	thrice has used 1469 a few times
+2014-11-04 19:11:11	roycroft	wy1469 is my standard yeast for english ales
+2014-11-04 19:11:20	roycroft	i absolutely love it
+2014-11-04 19:11:23	tomcocca	looking at using it for a oatmeal stout
+2014-11-04 19:11:39	tomcocca	where i really want to malt to shine through with little fruitiness
+2014-11-04 19:11:47	roycroft	odd for a stout
+2014-11-04 19:11:59	thrice	I like the yeast, bu tas said, get lots of the fruit esters out of it
+2014-11-04 19:12:09	tomcocca	ok, i've never used it
+2014-11-04 19:12:11	roycroft	yes, it's pretty fruity
+2014-11-04 19:12:17	roycroft	it makes excellent bitters
+2014-11-04 19:12:32	tomcocca	hmm, ok
+2014-11-04 19:12:33	roycroft	it flocs really well
+2014-11-04 19:12:40	roycroft	which i like
+2014-11-04 19:12:47	tomcocca	recommendations for an OS?
+2014-11-04 19:12:48	roycroft	it's a fairly low attenuator
+2014-11-04 19:13:05	thrice	not trying to defer you, but I think the wyeast description is a little deceiving.  i've feremnted both warm and cold, and still got the esters
+2014-11-04 19:13:07	roycroft	i generally use nottingham for my stouts
+2014-11-04 19:13:29	roycroft	but i'm not looking for a lot of yeast effect in a stout
+2014-11-04 19:13:48	roycroft	ack
+2014-11-04 19:13:48	tomcocca	1318 might work better then
+2014-11-04 19:13:55	roycroft	i need to wash some taster glasses before guests arrive
+2014-11-04 19:14:19	chris_99	tomcocca, it was wlp013 was it vs wy1469?
+2014-11-04 19:15:25	chris_99	or was it 023, you said sorry
+2014-11-04 19:16:07	tomcocca	!yeast wlp023
+2014-11-04 19:16:07	chinook	White Labs Burton Ale Yeast WLP023 - att: 69-75 tol: Medium temp: 68-73F flocc: Medium src: Henley of Thames eqv: WY1275
+2014-11-04 19:16:14	tomcocca	023
+2014-11-04 19:16:17	thrice	tomcocca: if you have a good bottle shop by you, look for "black sheep" bitter, I think it showcases the wy1469 pretty well
+2014-11-04 19:16:48	tomcocca	been meaning to get over here: http://www.craftbeercellar.com/newton/
+2014-11-04 19:17:00	tomcocca	i'm sure they will have some good stuff
+2014-11-04 19:17:14	tomcocca	1,111 different beers
+2014-11-04 19:17:20	chris_99	looks like i'd used wlp013 vs wy1469, of which the 1469 seemed to make a clearer beer iirc
+2014-11-04 19:18:02	tomcocca	!yeast 1318
+2014-11-04 19:18:02	chinook	Wyeast London Ale III WY1318 - att: 71-75 tol: 10% temp: 64-74F flocc: High src: Boddingtons
+2014-11-04 19:18:24	tomcocca	!yeast london
+2014-11-04 19:18:24	chinook	Danstar London London -
+2014-11-04 19:19:24	tomcocca	hmm … ok so maybe london ale
+2014-11-04 19:19:34	tomcocca	either wlp013, or wy1318
+2014-11-04 19:19:46	tomcocca	or wlp023 burton
+2014-11-04 19:20:50	chris_99	thrice, i went to masham, were both blacksheep and theakstons are, apparently blacksheep was formed by one of the theakstons when they sold off their brewery to some other peeps, the theakston brewery was really cool, very old fashioned
+2014-11-04 19:27:07	<--	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has quit (Quit: Ex-Chat)
+2014-11-04 19:37:09	tomcocca	roycroft: final verdict on the porter?
+2014-11-04 19:40:54	-->	staylor (~staylor@S0106602ad0901f12.cg.shawcable.net) has joined ##homebrew
+2014-11-04 19:49:09	<--	Beelsebob (~Adium@unaffiliated/beelsebob) has quit (Ping timeout: 265 seconds)
+2014-11-04 19:51:31	mashman	tomcocca
+2014-11-04 19:54:33	tomcocca	mashman: so I've been looking around at stuff for the rPi
+2014-11-04 19:55:44	tomcocca	and unfortunately I don't have a place for a ferm chamber in my condo, so I ferment in this thing: http://www.cool-brewing.com/store/#!/Fermentation-Cooler/p/36423376/category=0
+2014-11-04 19:56:31	tomcocca	as I was poking around the adafruit store I found 2 interesting things: http://www.adafruit.com/product/1335 and http://www.adafruit.com/products/1481
+2014-11-04 19:56:47	tomcocca	wondering what your thoughts were, if they could somehow be of use to me
+2014-11-04 20:02:57	mashman	maybe
+2014-11-04 20:03:04	mashman	I don't know much about peltiers though
+2014-11-04 20:03:15	mashman	I think someone around here has looked into it though
+2014-11-04 20:06:00	mashman	are you sure you can't find 22x28" worth of space? http://www.bestbuy.com/site/ge-5-0-cu-ft-chest-freezer-white/8612414.p?id=1192233348452
+2014-11-04 20:06:09	mashman	that's like 4 square feet
+2014-11-04 20:09:18	tomcocca	hmm
+2014-11-04 20:11:33	<--	staylor (~staylor@S0106602ad0901f12.cg.shawcable.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-11-04 20:13:26	-->	joekarl (~joekarl@ec2-54-193-11-223.us-west-1.compute.amazonaws.com) has joined ##homebrew
+2014-11-04 20:21:15	tomcocca	mashman: this pic intrigues me http://www.adafruit.com/images/1200x900/1335-03.jpg
+2014-11-04 20:21:32	tomcocca	granted its very little surface area
+2014-11-04 20:22:36	tomcocca	so i'm not sure how quickly it could drop the temp of the fermenter
+2014-11-04 20:26:34	-->	Beelsebob (~Adium@unaffiliated/beelsebob) has joined ##homebrew
+2014-11-04 20:30:25	-->	staylor (~staylor@S0106602ad0901f12.cg.shawcable.net) has joined ##homebrew
+2014-11-04 20:45:10	-->	mosen (~mosen@214.128.233.220.static.exetel.com.au) has joined ##homebrew
+2014-11-04 20:48:37	capin	sup
+2014-11-04 20:54:48	<--	arathald (arathald@linuxfromscratch/arathald) has quit (Quit: No Ping reply in 180 seconds.)
+2014-11-04 20:55:00	<--	swellington (~gcube9x@c-98-192-12-26.hsd1.ga.comcast.net) has quit (Quit: Lost terminal)
+2014-11-04 20:55:02	-->	arathald (arathald@linuxfromscratch/arathald) has joined ##homebrew
+2014-11-04 21:10:56	--	DouglasK_a is now known as DouglasK
+2014-11-04 21:13:38	longtail	tomcocca:  individual peltiers don't move very many btu's of heat.  In order to effectively cool a fermentor, you need quite a few of them.
+2014-11-04 21:51:57	<--	joekarl (~joekarl@ec2-54-193-11-223.us-west-1.compute.amazonaws.com) has quit (Ping timeout: 255 seconds)

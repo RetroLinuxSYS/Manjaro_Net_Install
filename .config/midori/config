@@ -1,0 +1,19 @@
+[settings]
+default-encoding=ISO-8859-1
+enable-developer-extras=true
+enable-site-specific-quirks=true
+enable-javascript=true
+default-charset=ISO-8859-1
+last-window-width=638
+last-window-height=986
+last-panel-position=388
+last-panel-page=1
+last-web-search=2
+search-width=323
+location-entry-search=https://duckduckgo.com/?q=%s
+show-menubar=true
+toolbar-items=Back,NextForward,ReloadStop,BookmarkAdd,Location,Search,Trash,
+homepage=about:search
+tabhome=about:dial
+download-folder=/home/paul/Downloads
+user-agent=Mozilla/5.0 (X11; Linux) AppleWebKit/538.1 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/538.1 Midori/0.5

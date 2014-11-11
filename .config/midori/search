@@ -1,0 +1,37 @@
+[Duck Duck Go]
+name=Duck Duck Go
+text=Privacy-aware Web Search
+uri=https://duckduckgo.com/?q=%s
+icon=https://duckduckgo.com/?q=terminal%20torrent&t=midori
+token=dd
+
+[Yahoo]
+name=Yahoo
+text=Yahoo Web Search
+uri=http://search.yahoo.com/search?p=
+token=y
+
+[Google]
+name=Google
+text=Web Search
+uri=http://www.google.com/search?q=%s
+icon=http://www.google.com/search?q=%23%20This%20is%20an%20example%20resource%20file%20for%20rTorrent.%20Copy%20to%0A%23%20~/.rtorrent.rc%20and%20enable/modify%20the%20options%20as%20needed.%20Remember%20to%0A%23%20uncomment%20the%20options%20you%20wish%20to%20enable.%0A%0A%23%20Maximum%20and%20minimum%20number%20of%20peers%20to%20connect%20to%20per%20torrent.%0A%23min_peers%20%3D%2040%0A%23max_peers%20%3D%20100%0A%0A%23%20Same%20as%20above%20but%20for%20seeding%20completed%20torrents%20%28-1%20%3D%20same%20as%20downloading%29%0A%23min_peers_seed%20%3D%2010%0A%23max_peers_seed%20%3D%2050%0A%0A%23%20Maximum%20number%20of%20simultanious%20uploads%20per%20torrent.%0A%23max_uploads%20%3D%2015%0A%0A%23%20Global%20upload%20and%20download%20rate%20in%20KiB.%20%220%22%20for%20unlimited.%0Adownload_rate%20%3D%200%0Aupload_rate%20%3D%200%0A%0A%23%20Default%20directory%20to%20save%20the%20downloaded%20torrents.%0Adirectory%20%3D%20./Torrents%0A%0A%23%20Default%20session%20directory.%20Make%20sure%20you%20don%27t%20run%20multiple%20instance%0A%23%20of%20rtorrent%20using%20the%20same%20session%20directory.%20Perhaps%20using%20a%0A%23%20relative%20path%3F%0Asession%20%3D%20./session%0A%0A%23%20Watch%20a%20directory%20for%20new%20torrents%2C%20and%20stop%20those%20that%20have%20been%0A%23%20deleted.%0Aschedule%20%3D%20watch_directory%2C5%2C5%2Cload_start%3D./watch/%2A.torrent%0Aschedule%20%3D%20untied_directory%2C5%2C5%2Cstop_untied%3D%0A%0A%23%20Close%20torrents%20when%20diskspace%20is%20low.%0Aschedule%20%3D%20low_diskspace%2C5%2C60%2Cclose_low_diskspace%3D100M%0A%0A%23%20Stop%20torrents%20when%20reaching%20upload%20ratio%20in%20percent%2C%0A%23%20when%20also%20reaching%20total%20upload%20in%20bytes%2C%20or%20when%0A%23%20reaching%20final%20upload%20ratio%20in%20percent.%0A%23%20example:%20stop%20at%20ratio%202.0%20with%20at%20least%20200%20MB%20uploaded%2C%20or%20else%20ratio%2020.0%0Aschedule%20%3D%20ratio%2C60%2C60%2C%22stop_on_ratio%3D200%2C200M%2C2000%22%0A%0A%23%20The%20ip%20address%20reported%20to%20the%20tracker.%0Aip%20%3D%20127.0.0.1%0Aip%20%3D%20rakshasa.no%0A%0A%23%20The%20ip%20address%20the%20listening%20socket%20and%20outgoing%20connections%20is%0A%23%20bound%20to.%0Abind%20%3D%20192.168.0.107%0A%23bind%20%3D%20rakshasa.no%0A%0A%23%20Port%20range%20to%20use%20for%20listening.%0Aport_range%20%3D%2061407-61407%0A%0A%23%20Start%20opening%20ports%20at%20a%20random%20position%20within%20the%20port%20range.%0Aport_random%20%3D%20yes%0A%0A%23%20Check%20hash%20for%20finished%20torrents.%20Might%20be%20usefull%20until%20the%20bug%20is%0A%23%20fixed%20that%20causes%20lack%20of%20diskspace%20not%20to%20be%20properly%20reported.%0Acheck_hash%20%3D%20yes%0A%0A%23%20Set%20whetever%20the%20client%20should%20try%20to%20connect%20to%20UDP%20trackers.%0Ause_udp_trackers%20%3D%20yes%0A%0A%23%20Alternative%20calls%20to%20bind%20and%20ip%20that%20should%20handle%20dynamic%20ip%27s.%0Aschedule%20%3D%20ip_tick%2C0%2C1800%2Cip%3Drakshasa%0Aschedule%20%3D%20bind_tick%2C0%2C1800%2Cbind%3Drakshasa%0A%0A%23%20Encryption%20options%2C%20set%20to%20none%20%28default%29%20or%20any%20combination%20of%20the%20following:%0A%23%20allow_incoming%2C%20try_outgoing%2C%20require%2C%20require_RC4%2C%20enable_retry%2C%20prefer_plaintext%0A%23%0A%23%20The%20example%20value%20allows%20incoming%20encrypted%20connections%2C%20starts%20unencrypted%0A%23%20outgoing%20connections%20but%20retries%20with%20encryption%20if%20they%20fail%2C%20preferring%0A%23%20plaintext%20to%20RC4%20encryption%20after%20the%20encrypted%20handshake%0A%23%0A%23%20encryption%20%3D%20allow_incoming%2Cenable_retry%2Cprefer_plaintext%0A%0A%23%20Enable%20DHT%20support%20for%20trackerless%20torrents%20or%20when%20all%20trackers%20are%20down.%0A%23%20May%20be%20set%20to%20%22disable%22%20%28completely%20disable%20DHT%29%2C%20%22off%22%20%28do%20not%20start%20DHT%29%2C%0A%23%20%22auto%22%20%28start%20and%20stop%20DHT%20as%20needed%29%2C%20or%20%22on%22%20%28start%20DHT%20immediately%29.%0A%23%20The%20default%20is%20%22off%22.%20For%20DHT%20to%20work%2C%20a%20session%20directory%20must%20be%20defined.%0A%23%0A%23%20dht%20%3D%20auto%0A%0A%23%20UDP%20port%20to%20use%20for%20DHT.%0A%23%0A%23%20dht_port%20%3D%206881%0A%0A%23%20Enable%20peer%20exchange%20%28for%20torrents%20not%20marked%20private%29%0A%23%0A%23%20peer_exchange%20%3D%20yes%0A%0A%23%0A%23%20Do%20not%20modify%20the%20following%20parameters%20unless%20you%20know%20what%20you%27re%20doing.%0A%23%0A%0A%23%20Hash%20read-ahead%20controls%20how%20many%20MB%20to%20request%20the%20kernel%20to%20read%0A%23%20ahead.%20If%20the%20value%20is%20too%20low%20the%20disk%20may%20not%20be%20fully%20utilized%2C%0A%23%20while%20if%20too%20high%20the%20kernel%20might%20not%20be%20able%20to%20keep%20the%20read%0A%23%20pages%20in%20memory%20thus%20end%20up%20trashing.%0Ahash_read_ahead%20%3D%2010%0A%0A%23%20Interval%20between%20attempts%20to%20check%20the%20hash%2C%20in%20milliseconds.%0Ahash_interval%20%3D%20100%0A%0A%23%20Number%20of%20attempts%20to%20check%20the%20hash%20while%20using%20the%20mincore%20status%2C%0A%23%20before%20forcing.%20Overworked%20systems%20might%20need%20lower%20values%20to%20get%20a%0A%23%20decent%20hash%20checking%20rate.%0Ahash_max_tries%20%3D%2010
+token=g
+
+[Wikipedia]
+name=Wikipedia
+text=The free encyclopedia
+uri=http://en.wikipedia.org/wiki/Special:Search/%s
+token=wp
+
+[The Free Dictionary]
+name=The Free Dictionary
+text=Dictionary, Encyclopedia and Thesaurus
+uri=http://www.thefreedictionary.com/%s
+token=fd
+
+[Google Translate]
+name=Google Translate
+text=Localize text or URL
+uri=http://translate.google.com/?q=
+token=gt

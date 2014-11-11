@@ -1,0 +1,19 @@
+2014-10-26 16:20:02	-->	Dmitry-Rasputin (~Dmitry-Ra@50.246.156.230) has joined #i3
+2014-10-26 16:20:02	--	Channel #i3: 77 nicks (0 ops, 0 voices, 77 normals)
+2014-10-26 16:20:04	--	Channel created on Thu, 22 Jul 2010 14:58:13
+2014-10-26 16:20:43	Dmitry-Rasputin	Question guys with i3 how do you get dmenu to open a terminal application like weechat/mc/etc
+2014-10-26 16:23:58	koell	Dmitry-Rasputin: ugh, already tried that. but never found out. i bet there is a way..
+2014-10-26 16:45:51	<--	cookiebow (~andreas@46-236-81-25.customer.t3.se) has quit (Quit: WeeChat 1.0.1)
+2014-10-26 16:46:09	michaelrose	its actually easy
+2014-10-26 16:46:19	michaelrose	you want to pass the command to be run to the konsole app
+2014-10-26 16:47:16	michaelrose	in the case of konsole the kde terminal its simply something like konsole -e weechat-curses
+2014-10-26 16:47:40	michaelrose	you may want to make a shortcut function in your shell of choice that does this
+2014-10-26 16:48:03	michaelrose	I use fish I would simply do...
+2014-10-26 16:48:10	michaelrose	function wchat
+2014-10-26 16:48:25	michaelrose	   konsole -e weechat-curses
+2014-10-26 16:48:27	michaelrose	end
+2014-10-26 16:48:41	michaelrose	could do the same in bash naturally
+2014-10-26 16:48:55	michaelrose	then open up dmenu and type wchat
+2014-10-26 16:50:50	michaelrose	http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-8.html
+2014-10-26 16:51:29	michaelrose	functions are a way to map functionality to a command without having 1000 tiny 1-5 little scripts
+2014-10-26 16:57:29	<--	Jafura (~Jean-Fran@2a02:2788:114:11ce:c51a:fc47:f4ae:c2f7) has quit (Ping timeout: 260 seconds)
